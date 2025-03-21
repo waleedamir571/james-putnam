@@ -40,8 +40,8 @@ sub {
     /* border-radius: 16px; */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     /* background: radial-gradient(circle, rgba(26, 214, 253, 0.1) 0%, rgb(0, 4, 12) 100%); */
-    background: #021e34;
-    opacity: 85%;
+    background: black;
+    opacity: 64%;
     position: relative;
     top: -1rem;
     z-index: -1;
