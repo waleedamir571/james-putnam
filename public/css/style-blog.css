@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    background-image: url('../bg-blue.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333;
+}
+
+.container {
+    max-width: 80%;
+    margin: 50px auto;
+    /* background: white; */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* background: radial-gradient(circle, rgba(26, 214, 253, 0.1) 0%, rgb(0, 4, 12) 100%); */
+    background: #021e34;
+    opacity: 75%;
+}
+
+.w-25{
+    width: 25%;
+}
+.w-100{
+    width: 100%;
+}
+
+.blog-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.blog-meta {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.blog-meta1 {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+.blog-content {
+    font-size: 18px;
+    line-height: 1.8;
+    color: white;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/style.css">
+
+</head>
+
+<body>
+    <!-- Blog Heading -->
+     <div class="container">
+        <div class="row">
+            <div class="blog-heading">
+                <h1>Recent Articles</h1>
+            </div>
+        </div>
+     </div>
+    
+
+    <!-- Blog Cards -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-4">
+                <a target="_blank" href="assets/A-Unit-of-Absolute- Universal-Time.pdf">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img1.jpg"
+                                alt="rover">
+                        </div>
+                        <div class="card-body">
+                          
+                            <h4>A Unit of Absolute Universal Time
+                            </h4>
+                            <span class="tag baskerville">By : James A. Putnam
+                            </span>
+                            <p>Electric charge is credited with being the source of light</p>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <a target="_blank" href="assets/Calculating-the-Universal-Gravitational-Constant.pdf">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img3.jpg"
+                                alt="ballons">
+                        </div>
+                        <div class="card-body">
+                           
+                            <h4>Calculating the Universal Gravitational Constant</h4>
+                            <span class="tag baskerville">By : James A. Putnam
+                            </span>
+                            <p>The empirical evidence is always about patterns in changes of velocities</p>
+                            <!-- <div class="user">
+                            <img src="https://lh3.googleusercontent.com/ogw/ADGmqu8sn9zF15pW59JIYiLgx3PQ3EyZLFp5Zqao906l=s32-c-mo"
+                                alt="user">
+                            <div class="user-info">
+                                <h5>Eyup Ucmaz</h5>
+                                <small>Yesterday</small>
+                            </div>
+                        </div> -->
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <a target="_blank" href="assets/The-nature-of-Thermodynamic-Entropy-4.pdf">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="assets/img2.jpg" alt="city">
+                        </div>
+                        <div class="card-body">
+                            
+                            <h4>The nature of Thermodynamic Entropy</h4>
+                            <span class="tag baskerville">By : James A. Putnam
+                            </span>
+                            <p>Physics properties are defined by <br> equations</p>
+                           
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <button type="button" class="btn btn-info" onclick="goBack()">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function goBack() {
+            window.location.href = "index.html"; // Redirect to index.html
+        }
+    </script>
+</body>
+
+</html>
